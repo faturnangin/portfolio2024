@@ -15,7 +15,7 @@ export function Hero() {
       <h5 className="text-center md:text-start text-base md:text-xl lg:text-2xl font-medium text-neutral-800 dark:text-grayscale2">I craft & develop attractive website with modern technologies</h5>
       <div className="flex items-center gap-4">
         <PrimaryButton link="mailto:workwithnangin@gmail.com" label="Contact" icon={Send}/>
-        <PrimaryButton link="mailto:workwithnangin@gmail.com" label="Résumé" icon={FileUser}/>
+        <PrimaryButton link="/doc/Resume.pdf" label="Résumé" icon={FileUser}/>
       </div>
     </div>
     </>
